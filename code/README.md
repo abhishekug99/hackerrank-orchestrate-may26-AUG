@@ -19,7 +19,7 @@ This avoids a heavyweight vector database because the corpus is local Markdown a
 ```bash
 cd <repo-root>
 python -m venv .venv
-source .venv/bin/activate
+source .venv/Scripts/activate
 pip install -r code/requirements.txt
 cp code/.env.example .env
 ```

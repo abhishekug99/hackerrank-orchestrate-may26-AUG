@@ -2,7 +2,7 @@ FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    USE_OPENAI=0
+    USE_OPENAI=1
 
 WORKDIR /app
 COPY code/requirements.txt /app/code/requirements.txt
